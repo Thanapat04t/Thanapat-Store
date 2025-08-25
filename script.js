@@ -3,6 +3,11 @@ const products = [
   { id: 1, name: "โน้ตบุ๊ก", price: 15000, img: "https://via.placeholder.com/200" },
   { id: 2, name: "หูฟัง", price: 8000, img: "https://via.placeholder.com/200" },
   { id: 3, name: "พาวเวอร์แบงค์", price: 1200, img: "https://via.placeholder.com/200" },
+  { id: 4, name: "เมาส์", price: 2400, img: "https://via.placeholder.com/200" },
+  { id: 5, name: "คีย์บอร์ด", price: 1500, img: "https://via.placeholder.com/200" },
+  { id: 6, name: "แผ่นรองเมาส์", price: 1000, img: "https://via.placeholder.com/200" },
+  { id: 7, name: "เก้าอี้", price: 4500, img: "https://via.placeholder.com/200" },
+  { id: 8, name: "จอ", price: 6900, img: "https://via.placeholder.com/200" },
 ];
 
 let cart = [];
