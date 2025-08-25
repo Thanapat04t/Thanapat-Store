@@ -1,0 +1,74 @@
+﻿body {
+  font-family: "Prompt", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f8f8;
+  color: #333;
+}
+
+header {
+  background: #0077cc;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+nav button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  background: #005fa3;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+nav button:hover {
+  background: #003d66;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  display: none;
+}
+
+section.active {
+  display: block;
+}
+
+#product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.product {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.product img {
+  width: 100%;
+  max-height: 150px;
+  object-fit: cover;
+}
+
+button.add-btn {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.add-btn:hover {
+  background: darkgreen;
+}
